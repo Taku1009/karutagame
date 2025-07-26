@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>百人一首カルタゲーム</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>百人一首カルタゲーム</h1>
+  <div id="game">
+    <div id="yomifuda">読み札を読み上げ中...</div>
+    <div id="torifuda-container"></div>
+    <div id="result"></div>
+    <div id="score">得点: 0</div>
+    <button id="next-btn">次の札へ</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
